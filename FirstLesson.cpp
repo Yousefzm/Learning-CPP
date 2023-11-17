@@ -3,6 +3,6 @@ using namespace std;
 int main(){
 
 
-cout<<"Yosef is the best brother";
+cout<<"Yousef is the best brother";
     return 0;
 }
