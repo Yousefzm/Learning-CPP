@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 class Robot {
 public:
     void moveForward() {
@@ -9,12 +9,12 @@ public:
 
     void turnLeft() {
         // Implement code to turn the robot left
-        std::cout << "Turning left\n";
+        cout<< "Turning left\n";
     }
 
     void turnRight() {
         // Implement code to turn the robot right
-        std::cout << "Turning right\n";
+       cout<<"Turning right\n";
     }
 };
 
@@ -50,5 +50,7 @@ int main() {
         myRobot.followObstacles();
     }
 
+    
     return 0;
 }
+        
